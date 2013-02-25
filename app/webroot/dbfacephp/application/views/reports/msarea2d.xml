@@ -1,0 +1,16 @@
+<chart [{$labelDisplay}] bgColor='E9E9E9' outCnvBaseFontColor='666666' caption='[{$caption}]'  xAxisName='[{$xAxisName}]' yAxisName='[{$yAxisName}]' showNames='1' showValues='0' 
+plotFillAlpha='50' numVDivLines='10' showAlternateVGridColor='1' AlternateVGridColor='e1f5ff' divLineColor='e1f5ff' vdivLineColor='e1f5ff'  baseFontColor='666666'
+canvasBorderThickness='1' showPlotBorder='1' plotBorderThickness='0'>
+<categories>
+[{section name=i loop=$categories}]
+<category label='[{$categories[i]}]'/>
+[{/section}]
+</categories>
+[{section name=i loop=$datasets}]
+<dataset seriesName='[{$datasets[i].seriesName}]' showValues='1'>
+[{section name=j loop=$datasets[i].datas}]
+<set value='[{$datasets[i].datas[j]}]' toolText="[{$datasets[i].seriesName}], [{$categories[i]}], [{$datasets[i].datas[j]}]"/>
+[{/section}]
+</dataset>
+[{/section}]
+</chart> 

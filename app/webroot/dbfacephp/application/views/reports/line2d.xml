@@ -1,0 +1,5 @@
+<chart [{$labelDisplay}] caption='[{$caption}]' xAxisName='[{$xAxisName}]' yAxisName='[{$yAxisName}]' showValues='1' alternateHGridColor='FCB541' alternateHGridAlpha='20' divLineColor='FCB541' divLineAlpha='50' canvasBorderColor='666666' baseFontColor='666666' lineColor='FCB541'>
+[{section name=i loop=$datas}]
+<set label='[{$datas[i][$labelname]}]' value='[{$datas[i][$valuename]}]' />
+[{/section}]
+</chart> 

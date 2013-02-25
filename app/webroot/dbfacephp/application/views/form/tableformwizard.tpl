@@ -1,0 +1,5 @@
+<table>
+[{section name=i loop=$fwizard}]
+<tr><td><input type="checkbox" name="gen_forceuse[]" class="gen_forceuse" value="1" checked/></td><td><label class="field-label"><input type="hidden" class="gen_forcefield" name="gen_forcefield[]" value="[{$fwizard[i].fieldname}]"/>[{$fwizard[i].fieldname}]</label></td><td><select class="gen_forcetype" name="gen_forcetype[]"><option value="1" [{if $fwizard[i].datatype==1}]selected[{/if}]>Single Line</option><option value="3" [{if $fwizard[i].datatype==3}]selected[{/if}]>Multi Line</option><option value="100" [{if $fwizard[i].datatype==100}]selected[{/if}]>Dropdown</option><option value="101" [{if $fwizard[i].datatype==101}]selected[{/if}]>Radio</option><option value="103" [{if $fwizard[i].datatype==103}]selected[{/if}]>Checkbox</option><option value="102" [{if $fwizard[i].datatype==102}]selected[{/if}]>Multi Select</option><option value="10" [{if $fwizard[i].datatype==10}]selected[{/if}]>Date</option></select></td></tr>
+[{/section}]
+</table>

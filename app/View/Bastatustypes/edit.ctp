@@ -1,0 +1,23 @@
+<div class="bastatustypes form">
+<?php echo $this->Form->create('Bastatustype');?>
+	<fieldset>
+		<legend><?php $action = ucfirst($this->params['action']); echo __("$action Status Type"); ?></legend>
+	<?php
+		echo $this->Form->input('id');
+		echo $this->Form->input('title');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit'));?>
+</div>
+<!--
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+
+		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Bastatustype.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Bastatustype.id'))); ?></li>
+		<li><?php echo $this->Html->link(__('List Bastatustypes'), array('action' => 'index'));?></li>
+		<li><?php echo $this->Html->link(__('List Bizassists'), array('controller' => 'bizassists', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Bizassist'), array('controller' => 'bizassists', 'action' => 'add')); ?> </li>
+	</ul>
+</div>
+-->

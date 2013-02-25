@@ -1,0 +1,6 @@
+<chart [{$labelDisplay}] palette='2' showBorder='1' caption='[{$caption}]'>
+[{section name=i loop=$datas}]
+<set label='[{$datas[i][$labelname]}]' value='[{$datas[i][$valuename]}]' />
+[{/section}]
+</chart>
+

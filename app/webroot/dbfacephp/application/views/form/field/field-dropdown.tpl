@@ -1,0 +1,5 @@
+<div ondblclick="editf('[{$elementID}]', 100)" id="[{$elementID}]" class="field-outer-container" onMouseOver="fcm(this)" onMouseOut="fcm(this, 'true')"><ul class="label-field-container-LR"><li style="padding-left:16px"></li><li class="field-label"><label id="dispName[{$elementID}]">[{$label}]</label></li><li><select id="input[{$elementID}]" disabledf='[{$disabledf}]' updatescriptenable='[{$updatescriptenable}]' updatescript='[{$updatescript}]' labelname="[{$label}]" fieldtype="[{$fieldType}]" fieldname="[{$fieldName}]" initval="[{$initval}]" scriptname="[{$fieldName}]" name="[{$fieldName}]" isreq="[{$isReq}]" srctype="[{$srctype}]" datasource="[{$datasource}]" class="config-picklist" style="width:150px"><option>-Select-</option>
+[{section name=i loop=$s_datasource}]
+<option value="[{$s_datasource[i].key}]" class="remove_when_save">[{$s_datasource[i].value}]</option>
+[{/section}]
+</select></li></ul></div>

@@ -1,0 +1,14 @@
+<chart [{$labelDisplay}] palette='2' caption='[{$caption}]' yAxisName='[{$yAxisName}]' xAxisName='[{$xAxisName}]'>
+<categories verticalLineColor='666666' verticalLineThickness='1'>
+[{section name=i loop=$categories}]
+<category label='[{$categories[i]}]' x='[{$categories[i]}]' showVerticalLine='1'/>
+[{/section}]
+</categories>
+[{section name=i loop=$datasets}]
+<dataSet seriesName='[{$datasets[i].seriesName}]'>
+[{section name=j loop=$datasets[i].datas}]
+<set y='[{$datasets[i].datas[j]}]' />
+[{/section}]
+</dataSet>
+[{/section}]
+</chart>

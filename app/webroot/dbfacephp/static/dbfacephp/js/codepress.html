@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<script type="text/javascript">
+var language = 'sql';
+var engine = 'older';
+var ua = navigator.userAgent;
+var ts = (new Date).getTime(); // timestamp to avoid cache
+var lh = location.href;
+
+if (ua.match('MSIE')) engine = 'msie';
+else if (ua.match('AppleWebKit')) engine = 'webkit';
+else if (ua.match('Opera')) engine = 'opera';
+else if (ua.match('Gecko')) engine = 'gecko';
+
+if (lh.match('language=')) language = lh.replace(/.*language=(.*?)(&.*)?$/,'$1');
+
+document.write('<link type="text/css" href="codepress.css" rel="stylesheet" />');
+document.write('<link type="text/css" href="languages/'+language+'.css" rel="stylesheet" id="cp-lang-style" />');
+document.write('<scr'+'ipt type="text/javascript" src="engines/'+engine+'.js"></scr'+'ipt>');
+document.write('<scr'+'ipt type="text/javascript" src="languages/'+language+'.js"></scr'+'ipt>');
+</script>
+</head>
+<script type="text/javascript">
+if (engine == "gecko") document.write('<body> </body>');
+else if (engine == "msie") document.write('<body><pre></pre></body>');
+else if (engine == "opera") document.write('<body></body>');
+else if (engine == "webkit") document.write('<body> </body>');
+</script>
+</html>

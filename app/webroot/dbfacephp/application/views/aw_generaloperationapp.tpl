@@ -1,0 +1,3 @@
+[{include file="aw_inc_form.tpl"}]
+[{include file="aw_inc_script.tpl"}]
+<tr id="div_tiprow"><td colspan="2"><fieldset><legend><b>Confirmation Message</b></legend><textarea id="opTip" name="opTip" id="opTip" rows="2" style="width:100%" class="config-textarea">[{$opTip}]</textarea><br/><div class="info-text">This message will display before SQL statements execution. You can also use the form parameters in this field.</div></fieldset></td></tr>

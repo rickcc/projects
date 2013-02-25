@@ -1,0 +1,3 @@
+<script type="text/javascript">
+swfobject.embedSWF('[{#s_base#}]/dbfacephp/img/charts/icharts.swf', 'chartdiv', '100%', '[{if $iframe}]300[{else}]500[{/if}]', '9.0.0', 'expressInstall.swf', {'registerwithjs': 1, 'chartclass': '[{$chartclass}]', 'dataurl':escape('[{#dbfacephp_base_url#}]/index.php?c=chartsource&appid=[{$appid}][{if $query_string}][{$query_string}][{/if}]')}, {'wmode':'Opaque'});
+</script>

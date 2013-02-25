@@ -1,0 +1,157 @@
+2011-12-24 06:57:32 Notice: Notice (8): Undefined variable: javascript in [/home/content/65/8545965/html/projects/app/View/Companies/json/index.ctp, line 4]
+Trace:
+include - APP/View/Companies/json/index.ctp, line 4
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-12-24 06:58:30 Notice: Notice (8): Undefined variable: javascript in [/home/content/65/8545965/html/projects/app/View/Companies/json/index.ctp, line 4]
+Trace:
+include - APP/View/Companies/json/index.ctp, line 4
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-12-24 07:01:29 Notice: Notice (8): Undefined variable: javascript in [/home/content/65/8545965/html/projects/app/View/Companies/json/index.ctp, line 4]
+Trace:
+include - APP/View/Companies/json/index.ctp, line 4
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-12-24 07:02:11 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:04:40 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:06:33 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:06:45 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:07:08 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:07:17 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:07:33 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:08:05 Notice: Notice (8): Undefined variable: javascript in [/home/content/65/8545965/html/projects/app/View/Companies/json/index.ctp, line 4]
+Trace:
+include - APP/View/Companies/json/index.ctp, line 4
+View::_render() - CORE/Cake/View/View.php, line 598
+View::render() - CORE/Cake/View/View.php, line 365
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 114
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 89
+[main] - APP/webroot/index.php, line 96
+
+2011-12-24 07:08:16 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+
+2011-12-24 07:53:19 Notice: Notice (8): Undefined variable: loggedIn in [/home/content/65/8545965/html/projects/app/View/Layouts/default.ctp, line 64]
+Trace:
+include - APP/View/Layouts/default.ctp, line 64
+View::_render() - CORE/Cake/View/View.php, line 598
+View::renderLayout() - CORE/Cake/View/View.php, line 414
+View::render() - CORE/Cake/View/View.php, line 376
+Controller::render() - CORE/Cake/Controller/Controller.php, line 898
+ExceptionRenderer::_outputMessage() - CORE/Cake/Error/ExceptionRenderer.php, line 267
+ExceptionRenderer::error500() - CORE/Cake/Error/ExceptionRenderer.php, line 234
+ExceptionRenderer::render() - CORE/Cake/Error/ExceptionRenderer.php, line 170
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 127
+[main] - [internal], line ??
+

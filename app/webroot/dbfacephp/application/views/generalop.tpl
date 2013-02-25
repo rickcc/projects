@@ -1,0 +1,10 @@
+<html><head><meta http-equiv='content-type' content='text/html;charset=UTF-8'/><link href="[{#s_base#}]/dbfacephp/css/style-default.css" rel="stylesheet" type="text/css"><link href="[{#s_base#}]/dbfacephp/css/te.css" rel="stylesheet" type="text/css"><link href="[{#s_base#}]/dbfacephp/css/c/theme.css" rel="stylesheet" type="text/css"><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/rview.js"></script><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/prototype.js"></script><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/jquery.js"></script><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/Utils.js"></script><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/calendar.js"></script><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/calendar-en.js"></script><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/calendar-setup.js"></script></head><body><div id="bodyColumn">
+[{if !$iframe}]
+<div id="navcolumn" style="margin:0px"><a href="[{#dbfacephp_base_url#}]/index.php?c=home&m=dashboard">Dashboard</a> > [{$appname}]<img src='[{#s_base#}]/dbfacephp/img/help.gif' align='absmiddle' onmouseover='javascript:openHelpTip(this, 3, "[{$appid}]");' onmouseout='javascript:closeHelpTip();'/></div>
+[{/if}]
+<form action="[{#dbfacephp_base_url#}]/index.php?c=app" method="post" id="mainForm" name="mainForm"> [{if $searchFormHTML}] <div id="searchForm" style="margin-bottom:10px">[{$searchFormHTML}]</div> [{/if}] <div id="error" style="display:none"></div><div id="dataset" class="borderbrown" style="overflow:auto;display:none;" cellpadding="0" cellspacing="0"></div><input type="hidden" name="action" value="submitform"><input type="hidden" name="appid" value="[{$appid}]"/><input type="hidden" name="apptype" value="[{$apptype}]"/><input type="hidden" name="rowNo" id="rowNo" value=""></form></div>
+[{include file="analytics.tpl"}]
+</body></html>
+[{if $searchFormHTML}]
+<script type="text/javascript">$('mainForm').focusFirstElement();</script>
+[{/if}]

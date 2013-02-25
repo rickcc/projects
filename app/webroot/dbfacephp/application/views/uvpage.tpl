@@ -1,0 +1,6 @@
+[{$pagebanner}]
+<table id="databody" style="margin-bottom:5px"><thead><tr><th><br></th>[{section name=i loop=$fields}]<th>[{$fields[i]}]</th>[{/section}]</tr></thead><tbody> [{section name=i loop=$datas}]
+<tr class="[{cycle values="odd,even"}]"><td class="rowHead">[{$smarty.section.i.index+$start}]</td> [{section name=j loop=$fields}] <td>[{$datas[i][j]}]</td> [{/section}]
+</tr>
+[{sectionelse}] <tr><td colspan="[{$columnLen+2}]"><span class="info-text">please click search button to get data from the target database.</span></td></tr>
+[{/section}] </tbody></table><div class="exportlinks">Export options: <a href="javascript:exportData('csv');"><span class="export csv">CSV </span></a>| <a href="javascript:exportData('xls');"><span class="export excel">Excel </span></a>| <a href="javascript:exportData('xml');"><span class="export xml">XML </span></a>| <a href="javascript:exportData('html');"><span class="export xml">HTML </span></a>| <a href="javascript:exportData('pdf');"><span class="export pdf">PDF </span></a></div>

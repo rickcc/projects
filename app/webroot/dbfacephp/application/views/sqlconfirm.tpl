@@ -1,0 +1,3 @@
+<div align="left" id="div_sqlconfirm"><div class="[{$sql_execute_css}]" style="margin-bottom:0px">[{$sql_execute_msg}]</div><div class="tools" style="text-align:left"><code class="prettyprint lang-sql">[{$sql_syntax}]</code><div class="clear"></div><div style="text-align:right"> [<a href="[{#dbfacephp_base_url#}]/index.php?c=sqllab&sqlcontent=[{$sql_ori}]&copyflag=true">Edit</a>][<a href="javascript:;" onclick="javascript:document.getElementById('div_sqlconfirm').style.display='none';">Close</a>] </div></div></div><script type="text/javascript">
+  prettyPrint();
+</script>

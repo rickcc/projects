@@ -1,0 +1,6 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><link rel="stylesheet" type="text/css" href="[{#s_base#}]/dbfacephp/css/structure.css"/><script type="text/javascript" src="[{#s_base#}]/dbfacephp/js/rview.js"></script><script type="text/javascript">
+    function sendData(val) {
+       window.opener.document.getElementById('dbname').value=val;
+       window.close();
+    }
+  </script></head><body style="margin-top:0px"><table class="data" style="float: left;"><thead><tr><th></th><th>Database Name</th></tr></thead><tbody> [{section name=i loop=$dbs}] <tr class="[{cycle values="odd,even"}]"><td align="center"><input type="checkbox" name="selected_db[]" value="[{$dbs[i].Database}]" id="checkbox_db_[{$smarty.section.i.index+1}]" onclick="javascript:sendData('[{$dbs[i].Database}]');"/></td><th><label for="checkbox_db_[{$smarty.section.i.index+1}]" title="[{$dbs[i].Database}]" style="">[{$dbs[i].Database}]</label></th></tr> [{/section}] </tbody></table></body></html>

@@ -1,0 +1,14 @@
+<chart [{$labelDisplay}] caption='[{$caption}]' xAxisName='[{$xAxisName}]' yAxisName='[{$yAxisName}]' shownames='1' showvalues='1' decimals='0'>
+<categories>
+[{section name=i loop=$categories}]
+<category label='[{$categories[i]}]'/>
+[{/section}]
+</categories>
+[{section name=i loop=$datasets}]
+<dataset seriesName='[{$datasets[i].seriesName}]' showValues='1'>
+[{section name=j loop=$datasets[i].datas}]
+<set value='[{$datasets[i].datas[j]}]' toolText="[{$datasets[i].seriesName}], [{$categories[i]}], [{$datasets[i].datas[j]}]"/>
+[{/section}]
+</dataset>
+[{/section}]
+</chart>
